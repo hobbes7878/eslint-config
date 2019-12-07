@@ -19,7 +19,7 @@ module.exports = {
     ],
     'operator-linebreak': ['error', 'after'],
     'space-before-function-paren': ['error', 'never'],
-    'react/prop-types': ['skipUndeclared'],
+    'react/prop-types': ['warn', { skipUndeclared: true }],
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
   },
