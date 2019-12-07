@@ -1,0 +1,23 @@
+{
+  "name": "@hobbes7878/eslint-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Jon McClure <jon.r.mcclure@gmail.com>",
+  "repository": "git@github.com:hobbes7878/eslint-config.git",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "babel-eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-config-standard-react": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-standard": "*"
+  },
+  "peerDependencies": {
+    "eslint": "*"
+  }
+}
